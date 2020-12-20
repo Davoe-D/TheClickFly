@@ -10,7 +10,7 @@ A Telegram Bot for making short links using **ClickyFly** API.
 ### Note:
 This using **ClickyFly** API so there are some issues to get **ClickyFly** API Key. The owners will not give API so easily. So I put my own API on the repo. If you get you own API than you can replace with my API. But not recommanded. If you are looking for support group then join our [Telegram Group](https://t.me/naija_bestz).
 
-### Disclaimers
+## Disclaimers:
 This File is a Test File and was scrapped from AbirHasan Git
 
 ### Support Group:
