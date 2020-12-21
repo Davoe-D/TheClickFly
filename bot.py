@@ -25,7 +25,7 @@ async def start(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Bots Updates Channel', url='https://t.me/naijabestz.com')
+                    InlineKeyboardButton('Bots Updates Channel', url='https://t.me/naijabestz')
                 ],
                 [
                     InlineKeyboardButton('Support Group', url='https://t.me/naija_bestz')
