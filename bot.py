@@ -25,10 +25,12 @@ async def start(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('❤ Bots Updates Channel ❤', url='https://t.me/naijabestz')
+                    InlineKeyboardButton('❤ Bots Updates Channel ❤', url='https://t.me/naijabestz'),
+                    InlineKeyboardButton('Feedback 🤷‍♂️', url='https://t.me/bestzbrothers')
                 ],
                 [
                     InlineKeyboardButton('⭐ Support Group ⭐', url='https://t.me/naija_bestz')
+                    InlineKeyboardButton('Source 😜', url='https://github.com/Davoe-D/FileRenameBot')
                 ]
             ]
         )
