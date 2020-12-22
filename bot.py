@@ -25,10 +25,10 @@ async def start(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Bots Updates Channel', url='https://t.me/naijabestz')
+                    InlineKeyboardButton('❤ Bots Updates Channel ❤', url='https://t.me/naijabestz')
                 ],
                 [
-                    InlineKeyboardButton('Support Group', url='https://t.me/naija_bestz')
+                    InlineKeyboardButton('⭐ Support Group ⭐', url='https://t.me/naija_bestz')
                 ]
             ]
         )
@@ -61,8 +61,8 @@ async def link_handler(bot, message):
 
 
 async def get_shortlink(link):
-    url = 'https://clickyfly.com/api'
-    params = {'api': '2f124e7f5b8b5030ef15de0eb87178277f07628d', 'url': link}
+    url = 'https://cutt.ly/api'
+    params = {'api': '59902e5ebd09119342dc8ee0f5ff4ff1d1641', 'url': link}
 
     async with aiohttp.ClientSession() as session:
         async with session.get(url, params=params, raise_for_status=True) as response:
