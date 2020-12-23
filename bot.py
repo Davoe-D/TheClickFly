@@ -30,7 +30,7 @@ async def start(bot, message):
                 ],
                [
                     InlineKeyboardButton('⭐ Support Group ⭐', url='https://t.me/naija_bestz'),
-                    InlineKeyboardButton('Source 😜', url='https://github.com/Davoe-D/FileRenameBot')
+                    InlineKeyboardButton('Source 😜', url='https://github.com/Davoe-D/TheClickFly')
                 ]
             ]
         )
