@@ -63,7 +63,7 @@ async def link_handler(bot, message):
 
 
 async def get_shortlink(link):
-    url = 'https://cutt.ly/api'
+    url = 'https://clickfly.com/api'
     params = {'api': '59902e5ebd09119342dc8ee0f5ff4ff1d1641', 'url': link}
 
     async with aiohttp.ClientSession() as session:
